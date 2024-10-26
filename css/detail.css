@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e7f4e8;
+    margin: 0;
+    padding: 0;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.back-button a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.ticket {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+    padding: 20px;
+}
+
+.ticket-header, .ticket-body, .ticket-footer {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.ticket-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00796b;
+}
+
+.ticket-info {
+    margin: 10px 0;
+    color: #555;
+}
+
+.ticket-info span {
+    display: block;
+    margin: 5px 0;
+}
+
+.ticket-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+}
+
+.ticket-section:first-of-type {
+    border-top: none;
+}
+
+.label {
+    color: #00796b;
+    font-weight: bold;
+}
+
+.value {
+    color: #555;
+}
+
+.ticket-footer {
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    margin-top: 20px;
+}
+
+.barcode {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 300px;
+}
+
+.contact-info {
+    display: block;
+    margin-top: 10px;
+    color: #00796b;
+    font-weight: bold;
+}

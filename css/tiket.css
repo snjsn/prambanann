@@ -1,0 +1,146 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.box {
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 128px 0 rgba(0,0,0,0.1),
+                0 32px 64px -48px rgba(0,0,0,0.5);
+}
+
+.form-box {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.form-box header {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 10px;
+}
+
+.form-box form .field {
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+
+.form-box form .input input {
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+main {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.checkout-item,
+.tiket-item {
+    margin-bottom: 20px;
+}
+
+.tiket-item form {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.tiket-item .jumlah-tiket {
+    margin: 0 10px; /* Berikan jarak antara jumlah tiket dengan tombol */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="date"],
+select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #1edf4b;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.syarat-ketentuan {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.syarat-ketentuan li {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.harga {
+    font-weight: bold;
+}
+
+.status {
+    color: red;
+}
+
+.subtotal {
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+
+.btn-pilih-tiket {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-pilih-tiket:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+}
